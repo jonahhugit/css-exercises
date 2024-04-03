@@ -20,6 +20,27 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 12px;
+  gap: 20px;
+}
+
+#left {
+  flex-basis: 50px;
+}
+
+#right {
+  flex-basis: 400px; 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.header {
+  margin-right: auto;
+  font-size: 18px;
+  font-weight: 750;
+  margin-top: 10px;
 }
 
 .icon {
@@ -48,6 +69,11 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  margin-top: 10px;
+}
+
+#buttons {
+  margin-bottom: 12px;
 }
 
 button {
